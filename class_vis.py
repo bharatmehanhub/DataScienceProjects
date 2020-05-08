@@ -1,16 +1,14 @@
 #!/usr/bin/python
 
 import warnings
-
-warnings.filterwarnings("ignore")
-
 import matplotlib
-
-matplotlib.use('agg')
-
 import matplotlib.pyplot as plt
 import pylab as pl
 import numpy as np
+
+warnings.filterwarnings("ignore")
+
+matplotlib.use('agg')
 
 
 def predictOutput(clf, X_test, y_test):

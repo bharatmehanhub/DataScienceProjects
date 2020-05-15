@@ -25,3 +25,5 @@ def makeTerrainData(n_points):
     y_test = y[split:]
 
     return X_train, y_train, X_test, y_test
+
+

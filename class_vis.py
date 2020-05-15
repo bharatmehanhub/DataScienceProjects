@@ -42,3 +42,5 @@ def predictOutput(clf, X_test, y_test):
     plt.xlabel("bumpiness")
     plt.ylabel("grade")
     plt.savefig('result.png')
+
+
